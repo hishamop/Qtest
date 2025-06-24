@@ -1,0 +1,29 @@
+title: TestPro Institute
+description: "QA services and training for professionals and companies."
+url: "" # your site URL
+theme: minimal-mistakes-jekyll
+
+paginate: 5
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+include:
+  - _pages
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+navigation:
+  - title: "Home"
+    url: /
+  - title: "Services"
+    url: /services/
+  - title: "Blog"
+    url: /blog/
